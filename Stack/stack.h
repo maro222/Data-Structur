@@ -19,5 +19,6 @@ void pop(stack *ps, stackEntry* pe);
 int stackEmpty(stack *ps);
 int stackFull(stack *ps);
 void clearStack(stack *ps);
-
+void traverseStack(stack *ps, void (*pf)(stackEntry));
+int sizeStack(stack *ps);
 #endif //STACK_STACK_H
